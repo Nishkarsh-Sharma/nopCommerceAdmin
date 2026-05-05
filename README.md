@@ -17,4 +17,4 @@ A robust, data-driven web automation framework built to test the admin portal of
 
 ## ⚙️ How to Run the Tests
 To execute the test suite and generate an HTML report, run the following command in the terminal:
-`pytest -v -s --html=Reports/report.html TestCases/`
+`pytest -v -s -n=2 --html=Reports/report.html TestCases/`
