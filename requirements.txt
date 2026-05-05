@@ -4,3 +4,4 @@ pytest-html
 openpyxl
 undetected-chromedriver
 pytest-xdist
+setuptools
