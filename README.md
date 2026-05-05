@@ -18,3 +18,12 @@ A robust, data-driven web automation framework built to test the admin portal of
 ## ⚙️ How to Run the Tests
 To execute the test suite and generate an HTML report, run the following command in the terminal:
 `pytest -v -s -n=2 --html=Reports/report.html TestCases/`
+
+### 🛡️ Advanced Capabilities (Bot Mitigation)
+While the CI pipeline is configured to use standard headless Chrome for cloud compatibility, the underlying framework architecture natively supports **`undetected-chromedriver`**. This allows the suite to bypass aggressive bot-mitigation firewalls (such as Cloudflare and reCAPTCHA) when executing tests locally or on dedicated staging environments.
+
+![CI](https://github.com/Nishkarsh-Sharma/nopCommerceAdmin/actions/workflows/selenium-tests.yml/badge.svg)
+
+> ⚠️ Pipeline runs against a bot-protected demo site.
+> Tests are designed for local or staging environment.
+> Framework, POM structure, and reporting are fully functional.
