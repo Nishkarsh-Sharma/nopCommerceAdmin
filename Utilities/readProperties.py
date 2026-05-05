@@ -4,7 +4,9 @@ import os
 config = configparser.RawConfigParser()
 config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Configuration', 'config.ini')
 config.read(config_path)
+
 #config.read(".\\Configuration\\config.ini")
+
 
 class ReadConfig:
     @staticmethod
