@@ -19,7 +19,7 @@ class Test_005_searchCustomer_byName:
         self.driver = setup
         self.Logger_5.info("**** Test case_005_ search customer by name started")
         self.driver.get(self.baseurl)
-        time.sleep(3)
+        time.sleep(10)
         self.driver.maximize_window()
 
         self.lp = LoginPage(self.driver)

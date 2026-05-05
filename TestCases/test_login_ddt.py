@@ -21,7 +21,7 @@ class Test_002_DDT_login:
         self.Logger_1.info("********** Verifying Login _DDT Test Case **********")
         self.driver = setup
         self.driver.get(self.base_url)
-        #time.sleep(8)
+        time.sleep(8)
         self.driver.maximize_window()
         lp = LoginPage(self.driver)
 

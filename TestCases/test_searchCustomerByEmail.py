@@ -18,6 +18,7 @@ class Test_004_searchCustomer_email:
         self.Logger_4.info("**** Starting Test_004_search Customer by Email ****")
         self.driver = setup
         self.driver.get(self.baseurl)
+        time.sleep(10)
         self.driver.maximize_window()
 
         self.lp = LoginPage(self.driver)

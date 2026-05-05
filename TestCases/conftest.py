@@ -53,7 +53,7 @@ def pytest_metadata(metadata):
     # 1. Add your custom information
     metadata['Project Name'] = 'nop Commerce'
     metadata['Module'] = 'Customers'
-    metadata['Tester'] = "Youtube Expert"
+    metadata['Tester'] = "Automation_Tester"
 
     # 2. Delete default information you don't want to see
     metadata.pop("JAVA_HOME", None)
